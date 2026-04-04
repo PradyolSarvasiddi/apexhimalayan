@@ -15,8 +15,8 @@ export default function ContactSection() {
     {
       icon: <Phone size={28} />,
       label: 'CALL US',
-      value: '98052 06007',
-      href: 'tel:+919805206007',
+      value: '98169 96799',
+      href: 'tel:+919816996799',
       color: 'var(--color-accent-gold)'
     },
     {

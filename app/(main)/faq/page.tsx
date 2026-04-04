@@ -125,7 +125,7 @@ export default function FaqPage() {
 
           <FadeUp className="text-center mt-12">
             <h3 className="headline mb-4">Still have questions?</h3>
-            <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" className="btn btn--whatsapp">Chat on WhatsApp</a>
+            <a href="https://wa.me/919816996799" target="_blank" rel="noopener noreferrer" className="btn btn--whatsapp">Chat on WhatsApp</a>
           </FadeUp>
         </div>
       </section>

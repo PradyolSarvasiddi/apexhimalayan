@@ -25,7 +25,7 @@ export default async function StaysPage() {
   return (
     <main>
       <section className="hero hero--shorter">
-        <div className="hero__bg parallax-bg" style={{ position: 'relative' }}>
+        <div className="hero__bg parallax-bg">
           <Image 
             src="https://picsum.photos/seed/stayshero/1920/1080" 
             alt="Luxury Stays" 
@@ -36,7 +36,7 @@ export default async function StaysPage() {
         </div>
         <div className="hero__overlay"></div>
         <div className="hero__grain"></div>
-        <div className="hero__content">
+        <div className="hero__content hero__content--centered">
           <h1 className="hero__title outline-text">LUXURY STAYS & CAMPS</h1>
           <p className="label text-orange">Home / Stays</p>
         </div>

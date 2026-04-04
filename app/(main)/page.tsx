@@ -132,7 +132,7 @@ export default async function HomePage() {
               </div>
               <div className="card__content">
                 <h3 className="card__title">Bike Expeditions</h3>
-                <p className="card__desc">Guided motorcycle tours through the most challenging and rewarding terrains.</p>
+                <p className="card__desc mobile-hide-desc">Guided motorcycle tours through the most challenging and rewarding terrains.</p>
                 <Link href="#rides" className="text-orange label">Explore →</Link>
               </div>
             </StaggerItem>
@@ -142,7 +142,7 @@ export default async function HomePage() {
               </div>
               <div className="card__content">
                 <h3 className="card__title">Adventure Treks</h3>
-                <p className="card__desc">High altitude trekking experiences with expert local guides.</p>
+                <p className="card__desc mobile-hide-desc">High altitude trekking experiences with expert local guides.</p>
                 <Link href="#rides" className="text-orange label">Explore →</Link>
               </div>
             </StaggerItem>
@@ -152,7 +152,7 @@ export default async function HomePage() {
               </div>
               <div className="card__content">
                 <h3 className="card__title">Luxury Stays</h3>
-                <p className="card__desc">Premium boutique accommodations and luxury camping setups.</p>
+                <p className="card__desc mobile-hide-desc">Premium boutique accommodations and luxury camping setups.</p>
                 <Link href="#stays" className="text-orange label">Explore →</Link>
               </div>
             </StaggerItem>
@@ -162,7 +162,7 @@ export default async function HomePage() {
               </div>
               <div className="card__content">
                 <h3 className="card__title">Custom Packages</h3>
-                <p className="card__desc">Tailor-made itineraries designed exclusively for your group.</p>
+                <p className="card__desc mobile-hide-desc">Tailor-made itineraries designed exclusively for your group.</p>
                 <Link href="#contact" className="text-orange label">Explore →</Link>
               </div>
             </StaggerItem>

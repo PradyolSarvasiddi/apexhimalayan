@@ -23,7 +23,7 @@ export function Footer() {
             <h4 className="footer__title">Contact</h4>
             <ul className="footer__links">
               <li><a href="mailto:apexhimalayanrides@gmail.com">apexhimalayanrides@gmail.com</a></li>
-              <li><a href="tel:+919805206007">+91 98052 06007</a></li>
+              <li><a href="tel:+919816996799">+91 98169 96799</a></li>
               <li>Near Vashishth, Manali, HP, India</li>
             </ul>
           </div>

@@ -110,7 +110,7 @@ export default async function StayDetailPage({ params }: { params: Promise<{ slu
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbsSchema) }}
       />
       <section className="hero hero--short">
-        <div className="hero__bg parallax-bg" style={{ position: 'relative' }}>
+        <div className="hero__bg parallax-bg">
           <Image 
             src={heroUrl} 
             alt={stay.name} 
@@ -121,7 +121,7 @@ export default async function StayDetailPage({ params }: { params: Promise<{ slu
         </div>
         <div className="hero__overlay"></div>
         <div className="hero__grain"></div>
-        <div className="hero__content">
+        <div className="hero__content hero__content--centered">
           <h1 className="hero__title">{stay.name.toUpperCase()}</h1>
           <p className="label text-orange">Home / Stays / {stay.name}</p>
         </div>
@@ -191,11 +191,24 @@ export default async function StayDetailPage({ params }: { params: Promise<{ slu
                 </div>
                 
                 <Link href={`/contact?subject=Enquiry for ${stay.name}`} className="btn btn--primary btn--full mb-4 text-center">Enquire Now</Link>
-                {stay.contact_info && (
-                   <a href={`tel:${stay.contact_info.replace(/[^0-9+]/g, '')}`} className="btn btn--ghost btn--full text-center" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}>
-                     <Phone className="w-4 h-4" /> Call Property
-                   </a>
-                )}
+                {(() => {
+                  // Strip HTML and check for phone numbers in all description fields
+                  const plainText = `${stay.contact_info || ''} ${stay.description || ''} ${stay.short_description || ''}`.replace(/<[^>]*>?/gm, ' ');
+                  
+                  // Look for common Indian phone patterns
+                  const phoneMatch = plainText.match(/(?:(?:\+|0{0,2})91[\s-]?)?[6789]\d{9}|(?:\d{5}[\s-]\d{5})/);
+                  
+                  const displayPhone = phoneMatch ? phoneMatch[0] : '';
+                  const cleanPhone = displayPhone.replace(/[^0-9+]/g, '');
+                  
+                  if (!cleanPhone || cleanPhone.length < 10) return null;
+                  
+                  return (
+                    <a href={`tel:${cleanPhone}`} className="btn btn--secondary btn--full text-center" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}>
+                      <Phone className="w-4 h-4" /> Call Property
+                    </a>
+                  );
+                })()}
               </div>
             </div>
           </div>

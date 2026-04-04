@@ -88,11 +88,19 @@ export default function FilterableStaysList({ stays }: FilterableStaysListProps)
                     
                     <div className="card__meta mt-auto pt-4 flex gap-3 shadow-none border-t border-white/5">
                       <Link href={`/stays/${stay.slug}`} className="btn btn--primary flex-1 text-center" style={{ padding: '8px 16px' }}>View Details</Link>
-                      {stay.contact_info && (
-                        <a href={`tel:${stay.contact_info.replace(/[^0-9+]/g, '')}`} className="btn btn--ghost" style={{ padding: '8px' }} title="Call directly">
-                          📞
-                        </a>
-                      )}
+                      {(() => {
+                        const plainText = `${stay.contact_info || ''} ${stay.description || ''} ${stay.short_description || ''}`.replace(/<[^>]*>?/gm, ' ');
+                        const phoneMatch = plainText.match(/(?:(?:\+|0{0,2})91[\s-]?)?[6789]\d{9}|(?:\d{5}[\s-]\d{5})/);
+                        const cleanPhone = phoneMatch ? phoneMatch[0].replace(/[^0-9+]/g, '') : '';
+                        
+                        if (!cleanPhone || cleanPhone.length < 10) return null;
+                        
+                        return (
+                          <a href={`tel:${cleanPhone}`} className="btn btn--secondary" style={{ padding: '8px' }} title="Call directly">
+                            📞
+                          </a>
+                        );
+                      })()}
                     </div>
                   </div>
                 </motion.div>

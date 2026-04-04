@@ -106,7 +106,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ slu
           dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbsSchema) }}
         />
         <section className="hero hero--short">
-          <div className="hero__bg parallax-bg" style={{ position: 'relative' }}>
+          <div className="hero__bg parallax-bg">
             <Image 
               src={heroUrl} 
               alt={tour.title} 
@@ -117,7 +117,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ slu
           </div>
           <div className="hero__overlay"></div>
           <div className="hero__grain"></div>
-          <div className="hero__content">
+          <div className="hero__content hero__content--centered">
             <h1 className="hero__title">{tour.title.toUpperCase()}</h1>
             <p className="label text-orange">Home / Rides / {tour.title}</p>
           </div>
@@ -201,9 +201,8 @@ export default async function TourDetailPage({ params }: { params: Promise<{ slu
                     <span className="subheadline">{tour.best_season || 'All Year'}</span>
                   </div>
                 </div>
-                <Link href="/contact" className="btn btn--primary btn--full mb-4">Book Now</Link>
-                <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" className="btn btn--whatsapp btn--full mb-4">Enquire on WhatsApp</a>
-                <button className="btn btn--ghost btn--full">Request Custom Date</button>
+                <a href="tel:9816996799" className="btn btn--primary btn--full mb-4">Call Us</a>
+                <a href="https://wa.me/919816996799" target="_blank" rel="noopener noreferrer" className="btn btn--whatsapp btn--full">Enquire on WhatsApp</a>
               </div>
             </div>
             </div>

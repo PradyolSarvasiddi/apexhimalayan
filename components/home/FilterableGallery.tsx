@@ -83,7 +83,7 @@ export default function FilterableGallery({ images }: FilterableGalleryProps) {
                   exit={{ opacity: 0, scale: 0.8 }}
                   transition={{ duration: 0.4 }}
                   key={img.id} 
-                  className="masonry-item filter-item group cursor-pointer relative min-h-[300px]"
+                  className="masonry-item filter-item group cursor-pointer relative"
                   onClick={() => openLightbox(img.id)}
                 >
                   <Image 

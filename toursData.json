@@ -1,0 +1,720 @@
+{
+    "agency_profile": {
+        "brand_name": "Apex Himalayan Rides",
+        "tagline": "Ride Beyond Limits. Explore Beyond Boundaries.",
+        "intro_line": "With 32+ years of travel experience and 20+ years in the industry, we create unforgettable Himalayan expeditions and global journeys across Nepal, Bhutan, Tibet, Dubai, Thailand, Bali, Masai Mara, and Serengeti.",
+        "about_us": "At Apex Himalayan Rides, our journey began long before the world went digital. With over 32 years of personal travel experience and more than 20 years in the travel industry, our foundation is built on passion, exploration, and real-world knowledge gained on the road — not just online. We have explored some of the most remote and breathtaking corners of the world, learning, adapting, and growing with every journey. This depth of experience allows us to create travel experiences that are not only well-planned but truly meaningful.\n\nWe specialize in high-altitude Himalayan bike expeditions and premium travel experiences across India and international destinations. From the rugged terrains of Ladakh and Spiti to cross-border adventures in Nepal, Bhutan, and Tibet, we design journeys that push boundaries while ensuring safety and comfort. Beyond the mountains, we curate unforgettable experiences in global destinations like Dubai, Thailand, Bali, and world-renowned African safaris in Masai Mara and Serengeti.",
+        "fleet": {
+            "bikes": [
+                "Suzuki Access",
+                "TVS Ntorq",
+                "Royal Enfield Hunter",
+                "Royal Enfield Classic",
+                "Royal Enfield Meteor",
+                "Royal Enfield Himalayan 411",
+                "Royal Enfield Himalayan 450",
+                "Suzuki V-Strom",
+                "TVS RTX",
+                "Royal Enfield Scram 440"
+            ],
+            "cars": [
+                "Mahindra XUV 700",
+                "Toyota Crysta",
+                "Force Tempo Traveller",
+                "Force Urbania",
+                "Maruti Suzuki Ertiga",
+                "Maruti Suzuki Jimny"
+            ]
+        }
+    },
+    "stays": [
+        {
+            "name": "Apex Mount View",
+            "slug": "apex-mount-view-manali",
+            "location": "Manali, Himachal Pradesh (6 km from Volvo bus stand)",
+            "type": "Hotel",
+            "short_description": "Premium stay offering a 360-degree mountain and Rohtang Pass view.",
+            "full_description": "Experience the ultimate mountain getaway at Apex Mount View (formerly Ambika International/R K Resorts/Hotel Rockland). Our property offers unparalleled 360-degree views of the mighty Himalayas and direct sights of the Rohtang Pass. Located conveniently 6 km from the Manali Volvo bus stand, it provides the perfect balance of accessibility and serenity.",
+            "amenities": [
+                "360 Mountain View",
+                "Rohtang Pass View",
+                "Parking",
+                "WiFi",
+                "Restaurant"
+            ],
+            "status": {
+                "available": true,
+                "featured": true
+            },
+            "images": [],
+            "contact_info": "For bookings, contact Apex Himalayan Rides."
+        },
+        {
+            "name": "Apex Dharamshala Retreat",
+            "slug": "apex-dharamshala-retreat",
+            "location": "Dharamshala, Himachal Pradesh",
+            "type": "Guesthouse",
+            "short_description": "Peaceful stay in the heart of Dharamshala.",
+            "full_description": "A serene associated property for our riders and guests to relax after a long journey.",
+            "amenities": [
+                "Mountain View",
+                "Parking",
+                "WiFi"
+            ],
+            "status": {
+                "available": true,
+                "featured": false
+            },
+            "images": [],
+            "contact_info": "For bookings, contact Apex Himalayan Rides."
+        },
+        {
+            "name": "Apex Amritsar Comfort",
+            "slug": "apex-amritsar-comfort",
+            "location": "Amritsar, Punjab",
+            "type": "Hotel",
+            "short_description": "Convenient stay in the holy city of Amritsar.",
+            "full_description": "An associated hotel providing comfort and easy access to the Golden Temple for our travelers.",
+            "amenities": [
+                "City View",
+                "Parking",
+                "WiFi"
+            ],
+            "status": {
+                "available": true,
+                "featured": false
+            },
+            "images": [],
+            "contact_info": "For bookings, contact Apex Himalayan Rides."
+        },
+        {
+            "name": "Apex Rishikesh Retreat",
+            "slug": "apex-rishikesh-retreat",
+            "location": "Rishikesh, Uttarakhand",
+            "type": "Guesthouse",
+            "short_description": "Spiritual stay by the Ganges.",
+            "full_description": "An associated property in Rishikesh, perfect for yoga and adventure enthusiasts before they head to the mountains.",
+            "amenities": [
+                "River View",
+                "WiFi"
+            ],
+            "status": {
+                "available": true,
+                "featured": false
+            },
+            "images": [],
+            "contact_info": "For bookings, contact Apex Himalayan Rides."
+        },
+        {
+            "name": "Apex Ladakh Base",
+            "slug": "apex-ladakh-base",
+            "location": "Leh, Ladakh",
+            "type": "Hotel",
+            "short_description": "High-altitude base for our riders.",
+            "full_description": "Our associated base in Leh, specifically designed to support riders during their Himalayan expeditions with specialized local knowledge.",
+            "amenities": [
+                "Oxygen Support",
+                "Bike Parking",
+                "WiFi"
+            ],
+            "status": {
+                "available": true,
+                "featured": false
+            },
+            "images": [],
+            "contact_info": "For bookings, contact Apex Himalayan Rides."
+        }
+    ],
+    "tours": [
+        {
+            "title": "12 Day Himalayan Adventure",
+            "slug": "12-day-himalayan-adventure",
+            "category": "Motorcycle Tour",
+            "short_description": "Where every turn meets the mighty Himalayas. Conquer the highest passes.",
+            "full_description": "An epic 12-day journey taking you through the raw, untouched beauty of the Himalayas. Ride through iconic routes, cross high-altitude passes, and experience the ultimate adventure.",
+            "trip_details": {
+                "duration": "12 Days",
+                "best_season": "June - September",
+                "difficulty": "Moderate",
+                "min_group_size": 1,
+                "max_group_size": 15
+            },
+            "status": {
+                "available": true,
+                "featured": true,
+                "popular": true
+            },
+            "images": [],
+            "itinerary": [
+                { "day": 1, "title": "Manali to Gonbo Rangjon", "description": "150 km ride." },
+                { "day": 2, "title": "Gonbo Rangjon to Padum", "description": "200 km ride." },
+                { "day": 3, "title": "Padum to Leh", "description": "220 km ride." },
+                { "day": 4, "title": "Leh to Nubra valley", "description": "160km (optional: Siachen base camp)" },
+                { "day": 5, "title": "Nubra to Pangong tso", "description": "275 km ride." },
+                { "day": 6, "title": "Pangong tso to Hanle", "description": "300 km ride." },
+                { "day": 7, "title": "Hanle local", "description": "Explore Mig la, Umling la." },
+                { "day": 8, "title": "Hanle to Leh", "description": "275 km ride." },
+                { "day": 9, "title": "Leh Local", "description": "Rest and local sightseeing." },
+                { "day": 10, "title": "Fly out or Ride on", "description": "Fly out of Leh or ride towards Jispa." },
+                { "day": 11, "title": "Leh to Jispa", "description": "350 km ride." },
+                { "day": 12, "title": "Jispa to Manali", "description": "100 km ride." }
+            ],
+            "inclusions_exclusions": {
+                "included": [ "Bike allocation", "Accommodation", "First Aid" ],
+                "not_included": [ "Flights", "Personal expenses" ]
+            },
+            "contact_info": "Enquire via WhatsApp for custom dates."
+        },
+        {
+            "title": "Spiti Circuit Expedition",
+            "slug": "spiti-circuit-expedition",
+            "category": "Motorcycle Tour",
+            "short_description": "Pause, breath and ride the mighty Himalayas through the Spiti Valley.",
+            "full_description": "Ride the famous Spiti circuit starting from Delhi. Experience the raw landscapes of Chitkul, Kaza, and the stunning Chandra Taal lake.",
+            "trip_details": {
+                "duration": "9 Days",
+                "best_season": "June - October",
+                "difficulty": "Moderate",
+                "min_group_size": 1,
+                "max_group_size": 15
+            },
+            "status": {
+                "available": true,
+                "featured": true,
+                "popular": false
+            },
+            "images": [],
+            "itinerary": [
+                { "day": 1, "title": "Delhi arrival and transfer to Shimla", "description": "Arrival in Delhi and transfer to Shimla." },
+                { "day": 2, "title": "Shimla to Chitkul", "description": "250 km ride." },
+                { "day": 3, "title": "Chitkul to Tabo", "description": "220 km ride." },
+                { "day": 4, "title": "Tabo to Kaza via hikkim, komic, Langza", "description": "150 km ride." },
+                { "day": 5, "title": "Kaza Local", "description": "Rest and explore Kaza." },
+                { "day": 6, "title": "Kaza to Chandra taal", "description": "100 km ride." },
+                { "day": 7, "title": "Chandra taal to Manali", "description": "120 km ride." },
+                { "day": 8, "title": "Manali local", "description": "Rest day in Manali." },
+                { "day": 9, "title": "Drop off to Delhi", "description": "Travel to your next destination as planned." }
+            ],
+            "inclusions_exclusions": {
+                "included": [ "Accommodation", "Backup vehicle" ],
+                "not_included": [ "Fuel", "Meals not specified" ]
+            },
+            "contact_info": "Enquire via WhatsApp for custom dates."
+        },
+        {
+            "title": "The Ultimate 20-day Himalayan Ride",
+            "slug": "ultimate-20-day-himalayan-ride",
+            "category": "Motorcycle Tour",
+            "short_description": "Where the mountains test you—and the ride defines you.",
+            "full_description": "An unparalleled 20-day journey covering the vast spectrum of the Himalayas. From the lush valleys of Shimla to the high-altitude plateaus of Ladakh and the remote corners of Padum.",
+            "trip_details": {
+                "duration": "21 Days",
+                "best_season": "June - September",
+                "difficulty": "Hard",
+                "min_group_size": 2,
+                "max_group_size": 12
+            },
+            "status": { "available": true, "featured": true, "popular": true },
+            "images": [],
+            "itinerary": [
+                { "day": 1, "title": "Delhi arrival and transfer to Shimla", "description": "Start the journey." },
+                { "day": 2, "title": "Shimla to Chitkul", "description": "250 km ride." },
+                { "day": 3, "title": "Chitkul to Tabo", "description": "220 km ride." },
+                { "day": 4, "title": "Tabo to Kaza via hikkim, komic, Langza", "description": "150 km ride." },
+                { "day": 5, "title": "Kaza Local", "description": "Rest and explore." },
+                { "day": 6, "title": "Kaza to Chandra taal", "description": "100 km ride." },
+                { "day": 7, "title": "Chandra taal to Jispa", "description": "140 km ride." },
+                { "day": 8, "title": "Jispa to Ganbo Rangjam", "description": "80 km ride." },
+                { "day": 9, "title": "Gonbo Rangjon to Padum", "description": "200 km ride." },
+                { "day": 10, "title": "Padum to Leh", "description": "220 km ride." },
+                { "day": 11, "title": "Leh to Nubra valley", "description": "160km (optional: Siachen base camp)" },
+                { "day": 12, "title": "Nubra to Pangong tso", "description": "275 km ride." },
+                { "day": 13, "title": "Pangong tso to Hanle", "description": "300 km ride." },
+                { "day": 14, "title": "Hanle local", "description": "Explore Mig la, Umling la." },
+                { "day": 15, "title": "Hanle to Leh", "description": "275 km ride." },
+                { "day": 16, "title": "Leh Local", "description": "Rest and relax." },
+                { "day": 17, "title": "Fly out of Leh or ride towards", "description": "Continuation day." },
+                { "day": 18, "title": "Leh to jispa", "description": "350 km ride." },
+                { "day": 19, "title": "Jispa to Manali", "description": "100 km ride." },
+                { "day": 20, "title": "Manali local", "description": "Rest day." },
+                { "day": 21, "title": "Drop off to Delhi", "description": "End of adventure." }
+            ],
+            "inclusions_exclusions": {
+                "included": [ "Bike", "Permits", "Backup" ],
+                "not_included": [ "Fuel", "Personal items" ]
+            },
+            "contact_info": "Contact via WhatsApp."
+        },
+        {
+            "title": "Ladakh Expedition - 14 Days",
+            "slug": "ladakh-expedition-14-days",
+            "category": "Motorcycle Tour",
+            "short_description": "Ride the adventure. Live the Himalayas.",
+            "full_description": "A comprehensive 14-day loop through the heart of Ladakh, covering Manali, Leh, Nubra, and Pangong.",
+            "trip_details": {
+                "duration": "15 Days",
+                "best_season": "June - September",
+                "difficulty": "Hard",
+                "min_group_size": 1,
+                "max_group_size": 15
+            },
+            "status": { "available": true, "featured": false, "popular": true },
+            "images": [],
+            "itinerary": [
+                { "day": 1, "title": "Delhi arrival and transfer to Manali", "description": "Arrival." },
+                { "day": 2, "title": "Manali local", "description": "Set the bike accordingly." },
+                { "day": 3, "title": "Manali to Jispa", "description": "100 km ride." },
+                { "day": 4, "title": "Jispa to Leh", "description": "350 km ride." },
+                { "day": 5, "title": "Leh to Nubra valley", "description": "160km (optional: Siachen base camp)" },
+                { "day": 6, "title": "Nubra Local sightseeing", "description": "Optional Siachen base camp." },
+                { "day": 7, "title": "Nubra to Pangong tso", "description": "275 km ride." },
+                { "day": 8, "title": "Pangong tso to Hanle", "description": "300 km ride." },
+                { "day": 9, "title": "Hanle local", "description": "Explore Mig la, Umling la." },
+                { "day": 10, "title": "Hanle to Leh", "description": "275 km ride." },
+                { "day": 11, "title": "Leh Local", "description": "Rest day." },
+                { "day": 12, "title": "Fly out or ride on", "description": "Optional continuation." },
+                { "day": 13, "title": "Leh to Jispa", "description": "350 km ride." },
+                { "day": 14, "title": "Jispa to Manali", "description": "100 km ride." },
+                { "day": 15, "title": "Drop off to Delhi", "description": "Final departure." }
+            ],
+            "inclusions_exclusions": {
+                "included": [ "Accommodation", "Bike", "Fuel Support" ],
+                "not_included": [ "Flights", "Meals" ]
+            },
+            "contact_info": "Contact via WhatsApp."
+        },
+        {
+            "title": "Rajasthan Bike Expedition — 12 Days",
+            "slug": "rajasthan-bike-expedition-12-days",
+            "category": "Motorcycle Tour",
+            "short_description": "Ride the Desert. Live the Royal Legacy.",
+            "full_description": "Explore the vibrant colors of Rajasthan on two wheels. From the pink city of Jaipur to the golden sands of Jaisalmer, experience royalty and the rugged desert terrain.",
+            "trip_details": {
+                "duration": "12 Days",
+                "best_season": "October - March",
+                "difficulty": "Easy",
+                "min_group_size": 1,
+                "max_group_size": 15
+            },
+            "status": { "available": true, "featured": false, "popular": true },
+            "images": [],
+            "itinerary": [
+                { "day": 1, "title": "Arrival in New Delhi | Orientation", "description": "Bike allocation & briefing." },
+                { "day": 2, "title": "Delhi to Jaipur", "description": "280 km ride. Terrain: Excellent highways." },
+                { "day": 3, "title": "Jaipur Local Ride", "description": "Visit Amber Fort, Jal Mahal, Nahargarh Fort." },
+                { "day": 4, "title": "Jaipur to Pushkar", "description": "150 km ride." },
+                { "day": 5, "title": "Pushkar to Jodhpur", "description": "190 km ride." },
+                { "day": 6, "title": "Jodhpur to Jaisalmer", "description": "280 km ride." },
+                { "day": 7, "title": "Jaisalmer Desert Ride", "description": "Visit Jaisalmer Fort and Sam Sand Dunes." },
+                { "day": 8, "title": "Jaisalmer to Jodhpur", "description": "Return ride. 280 km." },
+                { "day": 9, "title": "Jodhpur to Udaipur", "description": "250 km ride." },
+                { "day": 10, "title": "Udaipur Local Ride", "description": "Visit City Palace Udaipur and Lake Pichola." },
+                { "day": 11, "title": "Udaipur to Jaipur", "description": "400 km ride." },
+                { "day": 12, "title": "Jaipur to New Delhi", "description": "280 km ride and end of trip." }
+            ],
+            "inclusions_exclusions": {
+                "included": [ "Royal Enfield", "Hotel", "Briefing" ],
+                "not_included": [ "Food", "Fuel" ]
+            },
+            "contact_info": "Contact via WhatsApp."
+        },
+        {
+            "title": "Manali to Leh Expedition — 12 Days",
+            "slug": "manali-to-leh-expedition-12-days",
+            "category": "Motorcycle Tour",
+            "short_description": "Ride Beyond Roads. Conquer the Highest Frontiers.",
+            "full_description": "An extreme expedition crossing 7+ high-altitude passes, including Siachen Base Camp and Marsimik La. A true test of grit and endurance.",
+            "trip_details": {
+                "duration": "12 Days",
+                "best_season": "June - September",
+                "difficulty": "Hard",
+                "min_group_size": 2,
+                "max_group_size": 12
+            },
+            "status": { "available": true, "featured": true, "popular": true },
+            "images": [],
+            "itinerary": [
+                { "day": 1, "title": "Arrival in Manali | Acclimatization", "description": "Bike allocation and short local ride." },
+                { "day": 2, "title": "Manali to Jispa", "description": "Cross Atal Tunnel. 140 km." },
+                { "day": 3, "title": "Jispa to Leh", "description": "Cross Baralacha La and Gata Loops. 350 km." },
+                { "day": 4, "title": "Leh Rest + Local", "description": "Visit Shanti Stupa and get permits." },
+                { "day": 5, "title": "Leh to Nubra Valley", "description": "Cross Khardung La. 130 km." },
+                { "day": 6, "title": "Nubra to Siachen Base Camp to Nubra", "description": "Experience extreme terrain. 160 km round trip." },
+                { "day": 7, "title": "Nubra to Pangong Lake via Shyok", "description": "Ride adventurous Shyok route. 160 km." },
+                { "day": 8, "title": "Pangong to Hanle", "description": "Remote high-altitude ride. 170 km." },
+                { "day": 9, "title": "Hanle local", "description": "Explore Umling la and mig la." },
+                { "day": 10, "title": "Hanle to Marsimik La to Korzok", "description": "Attempt Marsimik La (~18,300 ft). 180 km." },
+                { "day": 11, "title": "Korzok to Sarchu", "description": "220 km ride." },
+                { "day": 12, "title": "Sarchu to Manali", "description": "230 km ride." }
+            ],
+            "inclusions_exclusions": {
+                "included": [ "Professional Guide", "High Altitude Permits", "Oxygen & First Aid" ],
+                "not_included": [ "Personal Expenses", "Gear Rental" ]
+            },
+            "contact_info": "Contact via WhatsApp."
+        },
+        {
+            "title": "Thailand Ultimate Itinerary — 10 Days",
+            "slug": "thailand-ultimate-itinerary-10-days",
+            "category": "Camping",
+            "short_description": "Ride the Vibe. Live the Tropics.",
+            "full_description": "A premium tropical journey covering Bangkok culture, Phuket and Krabi beaches, and the mountains of Chiang Mai.",
+            "trip_details": {
+                "duration": "10 Days",
+                "best_season": "November - April",
+                "difficulty": "Easy",
+                "min_group_size": 2,
+                "max_group_size": 15
+            },
+            "status": { "available": true, "featured": false, "popular": true },
+            "images": [],
+            "itinerary": [
+                { "day": 1, "title": "Arrival in Bangkok", "description": "Grand Palace and Wat Arun." },
+                { "day": 2, "title": "Bangkok Exploration", "description": "Floating market and River cruise." },
+                { "day": 3, "title": "Bangkok to Phuket", "description": "Fly to Phuket. Patong nightlife." },
+                { "day": 4, "title": "Phuket Island Tour", "description": "Phi Phi Islands and Snorkeling." },
+                { "day": 5, "title": "Phuket to Krabi", "description": "Transfer to Krabi. Ao Nang beach." },
+                { "day": 6, "title": "Krabi Adventure Day", "description": "Railay Beach and Emerald Pool." },
+                { "day": 7, "title": "Krabi to Chiang Mai", "description": "Fly to Chiang Mai. Old city bazaar." },
+                { "day": 8, "title": "Chiang Mai Exploration", "description": "Wat Phra That Doi Suthep and Elphant sanctuary." },
+                { "day": 9, "title": "Chiang Mai Adventure", "description": "Jungle adventure or zipline." },
+                { "day": 10, "title": "Departure", "description": "Fly back home." }
+            ],
+            "inclusions_exclusions": {
+                "included": [ "Internal Flights", "Hotels", "Island Hopping" ],
+                "not_included": [ "International Flights", "Visa" ]
+            },
+            "contact_info": "Contact via WhatsApp."
+        },
+        {
+            "title": "Thailand Bike Expedition — 10 Days",
+            "slug": "thailand-bike-expedition-10-days",
+            "category": "Motorcycle Tour",
+            "short_description": "Ride the Tropics. Explore the Unknown.",
+            "full_description": "The legendary Mae Hong Son Loop with over 1000 curves. A rider's paradise through dense jungles and mountain roads.",
+            "trip_details": {
+                "duration": "10 Days",
+                "best_season": "November - April",
+                "difficulty": "Moderate",
+                "min_group_size": 1,
+                "max_group_size": 12
+            },
+            "status": { "available": true, "featured": true, "popular": true },
+            "images": [],
+            "itinerary": [
+                { "day": 1, "title": "Arrival in Chiang Mai | Orientation", "description": "Bike allocation and briefing." },
+                { "day": 2, "title": "Chiang Mai to Pai", "description": "Ride the 762 curves route. 135 km." },
+                { "day": 3, "title": "Pai Local Exploration", "description": "Pai Canyon and hot springs." },
+                { "day": 4, "title": "Pai to Mae Hong Son", "description": "Scenic ride through dense hills. 110 km." },
+                { "day": 5, "title": "Mae Hong Son to Mae Sariang", "description": "Raw riding experience. 165 km." },
+                { "day": 6, "title": "Mae Sariang to Chiang Mai", "description": "Ride via Thailand’s highest peak (Doi Inthanon). 190 km." },
+                { "day": 7, "title": "Chiang Mai to Chiang Rai", "description": "Visit White Temple. 200 km." },
+                { "day": 8, "title": "Chiang Rai Exploration", "description": "Visit Golden Triangle." },
+                { "day": 9, "title": "Chiang Rai to Chiang Mai", "description": "Return ride. 200 km." },
+                { "day": 10, "title": "Departure", "description": "Bike return and flight." }
+            ],
+            "inclusions_exclusions": {
+                "included": [ "Bikes (RE/Honda CB)", "Guide", "Mountain Passes" ],
+                "not_included": [ "Fuel", "International Airfare" ]
+            },
+            "contact_info": "Contact via WhatsApp."
+        },
+        {
+            "title": "Thailand – Malaysia – Singapore Expedition",
+            "slug": "thailand-malaysia-singapore-expedition",
+            "category": "Motorcycle Tour",
+            "short_description": "Three Countries. One Epic Ride.",
+            "full_description": "An international journey crossing borders, connecting Phuket to Singapore via the smooth highways of Malaysia.",
+            "trip_details": {
+                "duration": "14 Days",
+                "best_season": "Year round",
+                "difficulty": "Moderate",
+                "min_group_size": 2,
+                "max_group_size": 10
+            },
+            "status": { "available": true, "featured": true, "popular": true },
+            "images": [],
+            "itinerary": [
+                { "day": 1, "title": "Arrival in Phuket | Orientation", "description": "Bike allocation and orientation." },
+                { "day": 2, "title": "Phuket to Krabi", "description": "Coastal smooth highways. 170 km." },
+                { "day": 3, "title": "Krabi to Hat Yai", "description": "280 km ride." },
+                { "day": 4, "title": "Hat Yai to Penang (Border Crossing)", "description": "Cross from Thailand to Malaysia. 220 km." },
+                { "day": 5, "title": "Penang Exploration", "description": "George Town and Penang Hill." },
+                { "day": 6, "title": "Penang to Cameron Highlands", "description": "Cool mountain curves. 210 km." },
+                { "day": 7, "title": "Cameron Highlands to Kuala Lumpur", "description": "200 km ride." },
+                { "day": 8, "title": "Kuala Lumpur Rest Day", "description": "Petronas Twin Towers and Batu Caves." },
+                { "day": 9, "title": "Kuala Lumpur to Malacca", "description": "Historical ride. 150 km." },
+                { "day": 10, "title": "Malacca to Johor Bahru", "description": "220 km ride." },
+                { "day": 11, "title": "Johor Bahru to Singapore (Border)", "description": "Cross the Causeway into Singapore. 50 km." },
+                { "day": 12, "title": "Singapore Exploration", "description": "Marina Bay Sands and Gardens by the Bay." },
+                { "day": 13, "title": "Buffer / Leisure Day", "description": "Shopping and rest." },
+                { "day": 14, "title": "Departure", "description": "Fly out from Singapore." }
+            ],
+            "inclusions_exclusions": {
+                "included": [ "Border Permits", "Touring Bike", "3-Country Logistics" ],
+                "not_included": [ "Border Taxes", "Fuel" ]
+            },
+            "contact_info": "Contact via WhatsApp."
+        },
+        {
+            "title": "Thailand – Vietnam Bike Expedition",
+            "slug": "thailand-vietnam-bike-expedition",
+            "category": "Motorcycle Tour",
+            "short_description": "From Smooth Highways to Wild Mountain Roads.",
+            "full_description": "Combine the curves of Northern Thailand with the raw, spectacular loops of Northern Vietnam.",
+            "trip_details": {
+                "duration": "14 Days",
+                "best_season": "October - March",
+                "difficulty": "Hard",
+                "min_group_size": 2,
+                "max_group_size": 10
+            },
+            "status": { "available": true, "featured": false, "popular": false },
+            "images": [],
+            "itinerary": [
+                { "day": 1, "title": "Arrival in Chiang Mai", "description": "Orientation." },
+                { "day": 2, "title": "Chiang Mai to Pai", "description": "762 curves." },
+                { "day": 3, "title": "Pai to Mae Hong Son", "description": "110 km." },
+                { "day": 4, "title": "Mae Hong Son to Chiang Mai", "description": "190 km." },
+                { "day": 5, "title": "Fly to Hanoi", "description": "Explore Old Quarter." },
+                { "day": 6, "title": "Hanoi to Ha Giang", "description": "300 km ride." },
+                { "day": 7, "title": "Ha Giang to Dong Van", "description": "Ha Giang Loop. 150 km." },
+                { "day": 8, "title": "Dong Van to Meo Vac to Ha Giang", "description": "160 km ride." },
+                { "day": 9, "title": "Ha Giang to Hanoi", "description": "300 km ride." },
+                { "day": 10, "title": "Hanoi to Ha Long Bay", "description": "Cruise day." },
+                { "day": 11, "title": "Hanoi to Hue (Flight)", "description": "Transfer to Central Vietnam." },
+                { "day": 12, "title": "Hue to Da Nang", "description": "Ride the Hai Van Pass. 100 km." },
+                { "day": 13, "title": "Da Nang to Hoi An", "description": "30 km ride." },
+                { "day": 14, "title": "Departure", "description": "Flight from Da Nang." }
+            ],
+            "inclusions_exclusions": {
+                "included": [ "Vietnam Local Entry", "ADV Bikes", "Ha Giang Loop Guide" ],
+                "not_included": [ "International Flights", "Personal Expenses" ]
+            },
+            "contact_info": "Contact via WhatsApp."
+        },
+        {
+            "title": "Vietnam Short Trip — North Focus",
+            "slug": "vietnam-short-trip",
+            "category": "Camping",
+            "short_description": "Halong Bay, Hanoi, and Ninh Binh scenery.",
+            "full_description": "Perfect 7-day introduction to the beauty of Northern Vietnam, featuring Halong Bay cruises and Hanoi's vibrant street life.",
+            "trip_details": {
+                "duration": "7 Days",
+                "best_season": "September - May",
+                "difficulty": "Easy",
+                "min_group_size": 2,
+                "max_group_size": 20
+            },
+            "status": { "available": true, "featured": false, "popular": true },
+            "images": [],
+            "itinerary": [
+                { "day": 1, "title": "Arrival in Hanoi", "description": "Old Quarter and street food." },
+                { "day": 2, "title": "Hanoi Local Tour", "description": "Cultural landmarks." },
+                { "day": 3, "title": "Halong Bay Cruise", "description": "Overnight kayaking and caves." },
+                { "day": 4, "title": "Halong Bay to Hanoi", "description": "Sunrise Tai Chi and brunch." },
+                { "day": 5, "title": "Ninh Binh Day Trip", "description": "Boat ride and Mua Cave." },
+                { "day": 6, "title": "Optional Extension", "description": "Sapa Trek or Hanoi leisure." },
+                { "day": 7, "title": "Departure", "description": "Airport transfer." }
+            ],
+            "inclusions_exclusions": {
+                "included": [ "Hanoi Old Quarter Hotel", "Halong Cruise", "A/C Bus" ],
+                "not_included": [ "Flight", "Personal Shopping" ]
+            },
+            "contact_info": "Contact via WhatsApp."
+        },
+        {
+            "title": "Nepal Bike Ride Itinerary",
+            "slug": "nepal-bike-ride",
+            "category": "Motorcycle Tour",
+            "short_description": "Real adventure through the mountains of Nepal.",
+            "full_description": "From the lakes of Pokhara to the off-road trails of Jomsom and Muktinath, discover the spiritual and rugged side of Nepal.",
+            "trip_details": {
+                "duration": "8 Days",
+                "best_season": "October - May",
+                "difficulty": "Moderate",
+                "min_group_size": 1,
+                "max_group_size": 15
+            },
+            "status": { "available": true, "featured": false, "popular": true },
+            "images": [],
+            "itinerary": [
+                { "day": 1, "title": "Arrival in Kathmandu", "description": "Bike rental and Thamel." },
+                { "day": 2, "title": "Kathmandu to Pokhara", "description": "Twisty highway ride. 200 km." },
+                { "day": 3, "title": "Pokhara Exploration", "description": "Sarangkot sunrise and Phewa Lake." },
+                { "day": 4, "title": "Pokhara to Jomsom", "description": "Off-road and river crossings. 160 km." },
+                { "day": 5, "title": "Jomsom to Muktinath to Jomsom", "description": "Spiritual ride (~12,500 ft)." },
+                { "day": 6, "title": "Jomsom to Pokhara", "description": "Return off-road ride." },
+                { "day": 7, "title": "Pokhara to Kathmandu", "description": "Return ride." },
+                { "day": 8, "title": "Departure", "description": "Flight back." }
+            ],
+            "inclusions_exclusions": {
+                "included": [ "Royal Enfield/XPulse", "Mustang Permits", "Hotels" ],
+                "not_included": [ "Gear", "Personal Insurance" ]
+            },
+            "contact_info": "Contact via WhatsApp."
+        },
+        {
+            "title": "Tibet Bike Ride Itinerary",
+            "slug": "tibet-bike-ride",
+            "category": "Motorcycle Tour",
+            "short_description": "Ride to the North Base of Everest.",
+            "full_description": "Cross the Rasuwagadhi border into the Tibetan plateau. Visit Lhasa, Yamdrok Lake, and the North Base Camp of Everest.",
+            "trip_details": {
+                "duration": "12 Days",
+                "best_season": "May - October",
+                "difficulty": "Hard",
+                "min_group_size": 2,
+                "max_group_size": 8
+            },
+            "status": { "available": true, "featured": true, "popular": false },
+            "images": [],
+            "itinerary": [
+                { "day": 1, "title": "Arrival in Kathmandu", "description": "Preparation." },
+                { "day": 2, "title": "Kathmandu Exploration", "description": "Permits and sightseeing." },
+                { "day": 3, "title": "Kathmandu to Syabrubesi", "description": "130 km ride." },
+                { "day": 4, "title": "Border Crossing to Kyirong", "description": "Enter Tibet formalities." },
+                { "day": 5, "title": "Acclimatization in Kyirong", "description": "Altitude adjustment (2700 m)." },
+                { "day": 6, "title": "Kyirong to Tingri", "description": "Enter Tibetan plateau. 300 km." },
+                { "day": 7, "title": "Tingri to Everest Base Camp to Shigatse", "description": "Ride to North EBC. High point." },
+                { "day": 8, "title": "Shigatse to Lhasa", "description": "Yamdrok Lake. 360 km." },
+                { "day": 9, "title": "Lhasa Exploration", "description": "Potala Palace and Jokhang Temple." },
+                { "day": 10, "title": "Fly out or Ride back", "description": "Tour conclusion." }
+            ],
+            "inclusions_exclusions": {
+                "included": [ "Tibet Travel Permit", "Chinese Visa Support", "Tibetan Guide" ],
+                "not_included": [ "International Airfare", "Hotel Tips" ]
+            },
+            "contact_info": "Contact via WhatsApp."
+        },
+        {
+            "title": "Comfortable Tibet Grand Loop",
+            "slug": "comfortable-tibet-grand-loop",
+            "category": "Motorcycle Tour",
+            "short_description": "Max 300 km/day | 20 Days of Spiritual Bliss.",
+            "full_description": "A well-paced expedition covering Kathmandu, EBC, Mt. Kailash, and Lhasa. Designed for those who want to absorb Tibet at a steady pace.",
+            "trip_details": {
+                "duration": "22 Days",
+                "best_season": "May - September",
+                "difficulty": "Hard",
+                "min_group_size": 2,
+                "max_group_size": 8
+            },
+            "status": { "available": true, "featured": true, "popular": true },
+            "images": [],
+            "itinerary": [
+                { "day": 1, "title": "Kathmandu Arrival", "description": "Permits." },
+                { "day": 3, "title": "Kathmandu to Syabrubesi", "description": "130 km." },
+                { "day": 4, "title": "Syabrubesi to Kyirong", "description": "Border. 90 km." },
+                { "day": 5, "title": "Kyirong Acclimatization", "description": "Rest." },
+                { "day": 6, "title": "Kyirong to High Plateau", "description": "220 km." },
+                { "day": 7, "title": "High Plateau to Tingri", "description": "180 km." },
+                { "day": 8, "title": "Tingri to EBC to Tingri", "description": "200 km." },
+                { "day": 12, "title": "Midway to Lake Manasarovar", "description": "Holy lake visit." },
+                { "day": 13, "title": "Manasarovar to Darchen", "description": "Kailash darshan." },
+                { "day": 17, "title": "Shigatse to Lhasa", "description": "300 km." },
+                { "day": 18, "title": "Lhasa Local", "description": "Potala Palace." },
+                { "day": 22, "title": "Kyirong to Kathmandu", "description": "Return." }
+            ],
+            "inclusions_exclusions": {
+                "included": [ "Luxury Stays", "Full Support Vehicle", "Medic on Board" ],
+                "not_included": [ "Personal Gear", "Alcohol" ]
+            },
+            "contact_info": "Contact via WhatsApp."
+        },
+        {
+            "title": "Bhutan Bike Expedition — 10-12 Days",
+            "slug": "bhutan-bike-expedition",
+            "category": "Motorcycle Tour",
+            "short_description": "Explore the Land of Happiness on two wheels.",
+            "full_description": "Ride from Siliguri to the heart of Bhutan. Covers Thimphu, Punakha, Bumthang, and the Tiger's Nest in Paro.",
+            "trip_details": {
+                "duration": "12 Days",
+                "best_season": "March - May, September - November",
+                "difficulty": "Moderate",
+                "min_group_size": 1,
+                "max_group_size": 12
+            },
+            "status": { "available": true, "featured": false, "popular": true },
+            "images": [],
+            "itinerary": [
+                { "day": 1, "title": "Siliguri to Phuentsholing", "description": "Enter Bhutan. 160 km." },
+                { "day": 2, "title": "Phuentsholing to Thimphu", "description": "Mountain climb and Dochula Pass. 150 km." },
+                { "day": 3, "title": "Thimphu Local", "description": "Explore capital city." },
+                { "day": 4, "title": "Thimphu to Punakha", "description": "Scenic descent. 85 km." },
+                { "day": 5, "title": "Punakha to Trongsa", "description": "130 km ride." },
+                { "day": 6, "title": "Trongsa to Bumthang", "description": "Cross high pass. 70 km." },
+                { "day": 7, "title": "Bumthang Exploration", "description": "Monasteries and valley." },
+                { "day": 9, "title": "Punakha to Paro", "description": "125 km ride." },
+                { "day": 10, "title": "Paro Local", "description": "Tiger’s Nest Monastery hike." },
+                { "day": 12, "title": "Return to Siliguri", "description": "Finish ride." }
+            ],
+            "inclusions_exclusions": {
+                "included": [ "Bhutan Visa & Permit", "Sustainable Development Fee", "Premium Bike" ],
+                "not_included": [ "Alcohol", "Extra Meals" ]
+            },
+            "contact_info": "Contact via WhatsApp."
+        },
+        {
+            "title": "Kenya + Tanzania Premium Safari",
+            "slug": "kenya-tanzania-premium-safari",
+            "category": "Camping",
+            "short_description": "Experience the ultimate Big Five wildlife safari across Maasai Mara and Serengeti.",
+            "full_description": "A luxury 8-day wildlife expedition through the Great Rift Valley, Maasai Mara National Reserve, Serengeti, and the Ngorongoro Crater.",
+            "trip_details": {
+                "duration": "8 Days",
+                "best_season": "July - October",
+                "difficulty": "Easy",
+                "min_group_size": 2,
+                "max_group_size": 12
+            },
+            "status": { "available": true, "featured": true, "popular": true },
+            "images": [],
+            "itinerary": [
+                { "day": 1, "title": "Arrival in Nairobi", "description": "Rest or Giraffe Centre visit." },
+                { "day": 2, "title": "Nairobi to Maasai Mara", "description": "Great Rift Valley. Evening game drive." },
+                { "day": 3, "title": "Full Safari in Maasai Mara", "description": "Big Five sightings." },
+                { "day": 4, "title": "Maasai Mara to Serengeti", "description": "Cross into Tanzania (Isebania border)." },
+                { "day": 5, "title": "Serengeti Safari", "description": "Full day safari. Best for big cats." },
+                { "day": 6, "title": "Serengeti to Ngorongoro Crater", "description": "Scenic drive to crater rim." },
+                { "day": 7, "title": "Ngorongoro Safari to Arusha", "description": "Crater floor safari. Drive to Arusha." },
+                { "day": 8, "title": "Departure", "description": "Fly out from Arusha." }
+            ],
+            "inclusions_exclusions": {
+                "included": [ "4x4 Safari Vehicle", "Park Fees", "Boutique Camps" ],
+                "not_included": [ "International Flights", "Tanzania Visa" ]
+            },
+            "contact_info": "Contact via WhatsApp."
+        },
+        {
+            "title": "Dubai + Abu Dhabi Itinerary",
+            "slug": "dubai-abu-dhabi-itinerary",
+            "category": "Camping",
+            "short_description": "Where modern skylines meet desert adventures.",
+            "full_description": "A golden journey from the Burj Khalifa skyscraper to the Sheikh Zayed Grand Mosque, with a thrilling desert safari in between.",
+            "trip_details": {
+                "duration": "7 Days",
+                "best_season": "November - March",
+                "difficulty": "Easy",
+                "min_group_size": 2,
+                "max_group_size": 30
+            },
+            "status": { "available": true, "featured": false, "popular": true },
+            "images": [],
+            "itinerary": [
+                { "day": 1, "title": "Arrival in Dubai", "description": "Dubai Marina and Fountain show." },
+                { "day": 2, "title": "Dubai City Tour", "description": "Burj Khalifa, Palm Jumeirah, and Souks." },
+                { "day": 3, "title": "Desert Safari Experience", "description": "Dune bashing, camel ride, and camp dinner." },
+                { "day": 4, "title": "Dubai Leisure / Adventure", "description": "Skydiving or Waterparks." },
+                { "day": 5, "title": "Dubai to Abu Dhabi", "description": "Visit Grand Mosque. 150 km drive." },
+                { "day": 6, "title": "Abu Dhabi Exploration", "description": "Ferrari World and Louvre." },
+                { "day": 7, "title": "Return and Departure", "description": "Final transit." }
+            ],
+            "inclusions_exclusions": {
+                "included": [ "Premium Hotels", "Ferrari World Tickets", "Desert Safari" ],
+                "not_included": [ "Personal Shopping", "Meal extras" ]
+            },
+            "contact_info": "Contact via WhatsApp."
+        }
+    ]
+}

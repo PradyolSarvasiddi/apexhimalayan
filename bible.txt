@@ -1,0 +1,54 @@
+APEX HIMALAYAN RIDES — PROJECT BIBLE
+=====================================
+
+WHAT THIS PROJECT IS
+---------------------
+Apex Himalayan Rides is a travel booking website for Himalayan tours and stays.
+Visitors can browse rides (tours) and stays, read testimonials, check a FAQ page,
+and submit enquiries. There is a private admin panel for managing all content.
+The backend uses Supabase for the database and user login. Built with Next.js.
+
+
+PAGE MAP — WHICH FILE CONTROLS WHICH PAGE
+------------------------------------------
+PUBLIC PAGES (what visitors see):
+  Home page             →  app/(main)/page.tsx
+  All Rides / Tours     →  app/(main)/rides/page.tsx
+  Single Ride detail    →  app/(main)/rides/[slug]/page.tsx
+  All Stays             →  app/(main)/stays/page.tsx
+  Single Stay detail    →  app/(main)/stays/[slug]/page.tsx
+  Testimonials          →  app/(main)/testimonials/page.tsx
+  FAQ                   →  app/(main)/faq/page.tsx
+  Shared navbar/footer  →  app/(main)/layout.tsx
+
+ADMIN PAGES (password protected):
+  Admin login           →  app/admin/login/page.tsx
+  Admin dashboard home  →  app/admin/(dashboard)/page.tsx
+  Manage Tours list     →  app/admin/(dashboard)/tours/page.tsx
+  Add new Tour          →  app/admin/(dashboard)/tours/new/page.tsx
+  Edit a Tour           →  app/admin/(dashboard)/tours/[id]/page.tsx
+  Manage Stays list     →  app/admin/(dashboard)/stays/page.tsx
+  Add new Stay          →  app/admin/(dashboard)/stays/new/page.tsx
+  Edit a Stay           →  app/admin/(dashboard)/stays/[id]/page.tsx
+  Manage Gallery        →  app/admin/(dashboard)/gallery/page.tsx
+  Manage Testimonials   →  app/admin/(dashboard)/testimonials/page.tsx
+  View Enquiries        →  app/admin/(dashboard)/enquiries/page.tsx
+  Settings              →  app/admin/(dashboard)/settings/page.tsx
+
+ERROR / SYSTEM PAGES:
+  404 Not Found         →  app/not-found.tsx
+  General error         →  app/error.tsx
+
+
+DESIGN PREFERENCES
+-------------------
+(Fill this in as you go — paste it back to Claude when asking for changes)
+
+  Brand colors    :
+  Fonts           :
+  Logo location   :
+  Overall feel    :  (e.g. rugged/adventurous, clean/minimal, luxury)
+  Button style    :
+  Hero style      :  (e.g. full-screen video, image slider, static photo)
+  Anything I love :
+  Anything I hate :

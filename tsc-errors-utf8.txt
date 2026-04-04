@@ -1,0 +1,3 @@
+﻿app/sitemap.ts(20,39): error TS7006: Parameter 'tour' implicitly has an 'any' type.
+app/sitemap.ts(27,39): error TS7006: Parameter 'stay' implicitly has an 'any' type.
+components/common/MaintenancePage.tsx(3,20): error TS2305: Module '"lucide-react"' has no exported member 'Tool'.

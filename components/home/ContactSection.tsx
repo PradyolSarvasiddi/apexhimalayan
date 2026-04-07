@@ -90,7 +90,7 @@ export default function ContactSection() {
           }}>
             <div className="flex flex-wrap w-full bg-transparent rounded-xl p-10 max-lg:p-6 lg:flex-row flex-col max-lg:gap-y-4">
               {contactMethods.map((method, idx) => (
-                <div key={idx} className={`flex-1 min-w-[250px] flex flex-col items-center justify-center text-center p-5 relative border-white/10 ${(idx === 0 || idx === 2) ? 'lg:border-r' : ''} max-lg:border-b last:max-lg:border-b-0`}>
+                <div key={idx} className={`flex-1 flex flex-col items-center justify-center text-center p-5 relative border-white/10 ${(idx === 0 || idx === 2) ? 'lg:border-r' : ''} max-lg:border-b last:max-lg:border-b-0`}>
                   <Magnetic>
                     <a href={method.href} 
                        target={method.href.startsWith('http') ? '_blank' : '_self'}
@@ -107,7 +107,7 @@ export default function ContactSection() {
                       }}>
                         {method.label}
                       </h4>
-                      <span className="subheadline text-base opacity-90 tracking-wide text-[#EAECEF]" style={{ 
+                      <span className="subheadline text-base opacity-90 tracking-wide text-[#EAECEF] break-all" style={{ 
                         fontFamily: 'var(--font-body)',
                       }}>
                         {method.value}

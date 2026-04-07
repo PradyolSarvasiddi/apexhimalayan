@@ -10,7 +10,7 @@ export default function MainLayout({
   children: React.ReactNode;
 }) {
   return (
-    <>
+    <div className="main-site" id="main-site">
       <LenisProvider>
         <Navbar />
         {children}
@@ -19,6 +19,6 @@ export default function MainLayout({
         </div>
         <Animations />
       </LenisProvider>
-    </>
+    </div>
   );
 }

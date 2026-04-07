@@ -136,13 +136,13 @@ export default async function TourDetailPage({ params }: { params: Promise<{ slu
             
             <div className="main-content min-w-0">
               <div className="filter-tabs flex-nowrap overflow-x-auto pb-4 -mx-4 px-4 sm:mx-0 sm:px-0" style={{ justifyContent: 'flex-start' }}>
-                <button className="filter-tab active">Overview</button>
-                <button className="filter-tab">Itinerary</button>
-                {tour.inclusions?.length > 0 && <button className="filter-tab">Inclusions</button>}
-                {tour.images?.length > 0 && <button className="filter-tab">Gallery</button>}
+                <a href="#overview" className="filter-tab">Overview</a>
+                <a href="#itinerary" className="filter-tab">Itinerary</a>
+                {tour.inclusions?.length > 0 && <a href="#inclusions" className="filter-tab">Inclusions</a>}
+                {tour.images?.length > 0 && <a href="#gallery" className="filter-tab">Gallery</a>}
               </div>
 
-              <FadeUp className="mb-12">
+              <FadeUp id="overview" className="mb-12" style={{ scrollMarginTop: '100px' }}>
                 <h2 className="headline mb-4">About This Expedition</h2>
                 {tour.description ? (
                   <div 
@@ -155,7 +155,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ slu
               </FadeUp>
 
               {tour.itinerary && tour.itinerary.length > 0 && (
-                <FadeUp className="mb-12">
+                <FadeUp className="mb-12" id="itinerary" style={{ scrollMarginTop: '100px' }}>
                   <h2 className="headline mb-8">Day-by-Day Itinerary</h2>
                   {tour.itinerary.map((day, idx) => (
                     <div className="accordion" key={idx}>
@@ -163,7 +163,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ slu
                         <span>
                           <span className="text-orange" style={{ marginRight: '16px', border: '1px solid var(--color-accent-orange)', borderRadius: '50%', width: '30px', height: '30px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                             {day.day_number || idx + 1}
-                          </span> 
+                          </span>
                           {day.title}
                         </span>
                         <span className="accordion__icon">▼</span>
@@ -174,6 +174,42 @@ export default async function TourDetailPage({ params }: { params: Promise<{ slu
                       </div>
                     </div>
                   ))}
+                </FadeUp>
+              )}
+
+              {tour.inclusions && tour.inclusions.length > 0 && (
+                <FadeUp className="mb-12" id="inclusions" style={{ scrollMarginTop: '100px' }}>
+                  <h2 className="headline mb-8">What's Included & Excluded</h2>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div>
+                      <h3 className="subheadline text-orange mb-4 flex items-center gap-2">
+                        <span className="w-2 h-2 rounded-full bg-orange-500"></span> Inclusions
+                      </h3>
+                      <ul className="space-y-2">
+                        {tour.inclusions.map((item, idx) => (
+                          <li key={idx} className="flex gap-3 text-text-primary">
+                            <span className="text-orange">✓</span>
+                            {item}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                    {tour.exclusions && tour.exclusions.length > 0 && (
+                      <div>
+                        <h3 className="subheadline text-muted mb-4 flex items-center gap-2">
+                          <span className="w-2 h-2 rounded-full bg-gray-500"></span> Exclusions
+                        </h3>
+                        <ul className="space-y-2">
+                          {tour.exclusions.map((item, idx) => (
+                            <li key={idx} className="flex gap-3 text-text-secondary">
+                              <span className="text-red-500">✕</span>
+                              {item}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+                  </div>
                 </FadeUp>
               )}
             </div>
@@ -208,7 +244,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ slu
             </div>
             
             {tour.images && tour.images.length > 0 && (
-              <FadeUp className="mt-12 w-full pt-12" style={{ borderTop: '1px solid var(--color-border)' }}>
+              <FadeUp id="gallery" className="mt-12 w-full pt-12" style={{ borderTop: '1px solid var(--color-border)', scrollMarginTop: '100px' }}>
                 <LightboxGallery 
                   images={tour.images
                     .filter(img => !img.is_hero)

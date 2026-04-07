@@ -24,9 +24,6 @@ export default async function GallerySection() {
 
         <FilterableGallery images={galleryImages} />
 
-        <FadeUp className="text-center mt-12">
-          <Link href="/contact" className="btn btn--ghost">Request Custom Photography Tour</Link>
-        </FadeUp>
       </div>
     </section>
   );

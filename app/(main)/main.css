@@ -20,29 +20,18 @@
   --font-label: 'Inter', sans-serif;
 }
 
-* { margin: 0; padding: 0; box-sizing: border-box; }
-html { scroll-behavior: smooth; }
-body {
-  background-color: var(--color-bg-primary);
-  color: var(--color-text-primary);
-  font-family: var(--font-body);
-  -webkit-font-smoothing: antialiased;
-  overflow-x: hidden;
-}
-a { text-decoration: none; color: inherit; }
-ul { list-style: none; }
-img { max-width: 100%; display: block; }
-button { cursor: pointer; border: none; background: none; font-family: inherit; color: inherit; }
-input, textarea, select { font-family: inherit; }
 
-h1, h2, h3, .headline {
+/* Element-level resets are handled by globals.css */
+
+/* Main-site specific heading overrides */
+.main-site h1, .main-site h2, .main-site h3, .headline {
   font-family: var(--font-headline);
   font-weight: 700;
   text-transform: none !important;
   letter-spacing: -0.01em;
   color: var(--color-text-primary);
 }
-h4, h5, h6, .subheadline {
+.main-site h4, .main-site h5, .main-site h6, .subheadline {
   font-family: var(--font-headline);
   font-weight: 600;
   color: var(--color-text-primary);
@@ -54,7 +43,8 @@ h4, h5, h6, .subheadline {
   letter-spacing: 0.05em;
   text-transform: uppercase !important;
 }
-p { line-height: 1.6; color: var(--color-text-secondary); font-size: 16px; font-weight: 400; }
+.main-site p { line-height: 1.6; color: var(--color-text-secondary); font-size: 16px; font-weight: 400; }
+
 
 .container { width: 100%; max-width: 1400px; margin: 0 auto; padding: 0 20px; }
 @media (min-width: 768px) { .container { padding: 0 32px; } }
@@ -787,3 +777,4 @@ section { scroll-margin-top: 80px; }
 .popular-destination-card:hover {
   transform: translateY(-10px);
 }
+

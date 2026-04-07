@@ -27,15 +27,6 @@ export function Footer() {
               <li>Near Vashishth, Manali, HP, India</li>
             </ul>
           </div>
-          <div>
-            <h4 className="footer__title">Newsletter</h4>
-            <p className="mb-4">Get updates on new routes and early bird offers.</p>
-            <form style={{ display: 'flex', gap: '8px' }}>
-              <label htmlFor="newsletter-email" className="sr-only">Newsletter Email</label>
-              <input id="newsletter-email" type="email" placeholder="Your email" className="form-input" style={{ padding: '12px' }} />
-              <button type="button" className="btn btn--primary" style={{ padding: '12px 24px' }}>Join</button>
-            </form>
-          </div>
         </div>
         <div className="footer__bottom">
           <div>&copy; {new Date().getFullYear()} Apex Himalayan Rides. All rights reserved.</div>

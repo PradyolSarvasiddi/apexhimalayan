@@ -62,7 +62,6 @@ export const NAV_SECTIONS: { title: string; items: NavItem[] }[] = [
       { label: 'Tours', href: '/admin/tours', icon: Map },
       { label: 'Stays', href: '/admin/stays', icon: Home },
       { label: 'Gallery', href: '/admin/gallery', icon: Image },
-      { label: 'Testimonials', href: '/admin/testimonials', icon: MessageSquareQuote },
     ],
   },
   {

@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npm install:*)"
+      "Bash(npm install:*)",
+      "Bash(ls \"C:/Users/Kavya Sarvasiddi/OneDrive/Desktop/apex-himalayan-rides/app/\\(main\\)\")",
+      "Bash(ls \"C:/Users/Kavya Sarvasiddi/OneDrive/Desktop/apex-himalayan-rides/app/\\(main\\)/about\")",
+      "Bash(grep -rn \"''use client''\" \"C:/Users/Kavya Sarvasiddi/OneDrive/Desktop/apex-himalayan-rides/components/home/AboutSection.tsx\")",
+      "Bash(ls \"C:/Users/Kavya Sarvasiddi/OneDrive/Desktop/apex-himalayan-rides/app/\\(main\\)/\")"
     ]
   }
 }

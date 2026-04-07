@@ -4,9 +4,10 @@ import React from 'react';
 import { motion, useInView } from 'framer-motion';
 import { maskReveal, containerStagger, itemStagger, textReveal } from '@/lib/motion-variants';
 
-export function FadeUp({ children, className = '', style }: { children: React.ReactNode, className?: string, style?: React.CSSProperties }) {
+export function FadeUp({ children, className = '', style, id }: { children: React.ReactNode, className?: string, style?: React.CSSProperties, id?: string }) {
   return (
     <motion.div
+      id={id}
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-100px" }}

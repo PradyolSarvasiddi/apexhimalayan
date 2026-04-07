@@ -61,7 +61,7 @@ export function Header() {
 					)}
 				>
 					{/* Logo */}
-					<Link href="/" className="flex items-center group shrink-0 z-50 relative focus-visible:outline-none">
+					<Link href="/" className="flex items-center group shrink-0 z-50 relative focus-visible:outline-none ml-4 md:ml-8">
 						<div className={cn(
 							"transition-all duration-500",
 							(mounted && scrolled) ? "h-10 w-auto" : "h-14 w-auto"
@@ -112,18 +112,18 @@ export function Header() {
 
 					{/* Desktop Actions */}
 					<div className="hidden xl:flex items-center gap-8 shrink-0 z-50">
-						<Link 
+						<a 
 							href="/admin/login" 
 							className="text-[13px] font-semibold uppercase tracking-wider text-text-secondary hover:text-text-primary transition-colors duration-300"
 						>
 							CMS
-						</Link>
+						</a>
 						
 						<div className="h-4 w-[1px] bg-white/10" />
 						
 						<Link 
 							href="/#contact" 
-							className="bg-accent-gold text-[#0D0F0E] px-7 py-3 rounded-md text-[12px] font-bold uppercase tracking-wider hover:bg-accent-gold-hover transition-all duration-300 shadow-sm"
+							className="text-accent-gold px-10 py-4 rounded-md text-[13px] font-bold uppercase tracking-wider hover:text-accent-gold-hover transition-all duration-300"
 						>
 							Book Ride
 						</Link>
@@ -208,13 +208,13 @@ export function Header() {
 									</span>
 								</Link>
 
-								<Link 
+								<a 
 									href="/admin/login" 
 									onClick={() => setOpen(false)}
 									className="w-full py-5 rounded-2xl text-center text-[10px] font-bold uppercase tracking-[0.2em] text-text-muted hover:text-text-primary border border-border-default/20 hover:border-border-default/40 hover:bg-bg-elevated transition-colors duration-300"
 								>
 									CMS Login
-								</Link>
+								</a>
 							</motion.div>
 						</div>
 					</motion.div>

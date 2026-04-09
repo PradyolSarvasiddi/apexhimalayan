@@ -7,6 +7,7 @@ import Image from 'next/image';
 import { LightboxGallery } from '@/components/ui/LightboxGallery';
 import { FadeUp } from '@/components/ui/motion-wrappers';
 import { Metadata } from 'next';
+import ContactButtons from '@/components/ui/ContactButtons';
 import ErrorBoundary from '@/components/common/ErrorBoundary';
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
@@ -237,8 +238,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ slu
                     <span className="subheadline">{tour.best_season || 'All Year'}</span>
                   </div>
                 </div>
-                <a href="tel:9816996799" className="btn btn--primary btn--full mb-4">Call Us</a>
-                <a href="https://wa.me/919816996799" target="_blank" rel="noopener noreferrer" className="btn btn--whatsapp btn--full">Enquire on WhatsApp</a>
+                <ContactButtons phone="9816996799" waPhone="919816996799" />
               </div>
             </div>
             </div>

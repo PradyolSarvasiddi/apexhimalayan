@@ -190,7 +190,6 @@ export default async function StayDetailPage({ params }: { params: Promise<{ slu
                   </div>
                 </div>
                 
-                <Link href={`/contact?subject=Enquiry for ${stay.name}`} className="btn btn--primary btn--full mb-4 text-center">Enquire Now</Link>
                 {(() => {
                   // Strip HTML and check for phone numbers in all description fields
                   const plainText = `${stay.contact_info || ''} ${stay.description || ''} ${stay.short_description || ''}`.replace(/<[^>]*>?/gm, ' ');

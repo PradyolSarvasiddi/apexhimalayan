@@ -4,9 +4,21 @@ import { NextResponse, type NextRequest } from 'next/server'
 export function createMiddlewareSupabaseClient(req: NextRequest) {
   const res = NextResponse.next()
 
+  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL
+  const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
+
+  if (!supabaseUrl || !supabaseAnonKey) {
+    const supabase = new Proxy({} as any, {
+      get: () => () => {
+        throw new Error('Supabase client called in middleware but environment variables are missing.')
+      }
+    })
+    return { supabase, res }
+  }
+
   const supabase = createServerClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+    supabaseUrl,
+    supabaseAnonKey,
     {
       cookies: {
         getAll() {

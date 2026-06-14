@@ -133,19 +133,8 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
-  const isConfigured = 
-    !!process.env.NEXT_PUBLIC_SUPABASE_URL && 
-    !!process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
-
-  if (!isConfigured) {
-    return (
-      <html lang="en">
-        <body>
-          <MaintenancePage />
-        </body>
-      </html>
-    );
-  }
+  // Set to true to allow the local mock client fallback to display the website when Supabase environment variables are missing
+  const isConfigured = true;
 
   return (
     <html lang="en" className={`${inter.variable} ${dmMono.variable} ${cormorantGaramond.variable} ${playfairDisplay.variable} h-full`}>
